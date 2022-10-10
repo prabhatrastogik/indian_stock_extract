@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "indian_stock_extract"
+version = "0.0.1"
+description = "Get Stock Data for trading systems India"
+authors = ["Prabhat Rastogi <prabhatrastogik@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.0"
+numpy = "^1.23.3"
+scikit-learn = "^1.1.2"
+plotly = "^5.10.0"
+matplotlib = "^3.6.0"
+seaborn = "^0.12.0"
+zlogin = "^0.0.6"
+kiteconnect = "^4.1.0"
+alpha-vantage = "^2.3.1"
+statsmodels = "^0.13.2"
+TA-Lib = "^0.4.25"
+pyarrow = "^9.0.0"
+datatable = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.4.7"
+spyder = "^5.3.3"
+bandit = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

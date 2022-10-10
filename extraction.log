@@ -1,0 +1,49 @@
+2022-09-29 00:01:07,863 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(58) - instruments/instruments20220929 does not exist
+2022-09-29 00:01:12,418 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(29) - instruments/instruments20220929 write completed
+2022-09-29 00:02:40,125 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(44) - temp.parquet/instruments/temp append completed
+2022-09-29 00:02:44,739 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(44) - temp.parquet/instruments/temp append completed
+2022-09-29 00:02:49,053 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(44) - temp.parquet/instruments/temp append completed
+2022-09-29 00:04:46,876 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(44) - temp.parquet/instruments/temp append completed
+2022-09-29 00:20:41,363 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(50) - temp.parquet/instruments/temp append completed
+2022-09-29 00:22:08,684 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(53) - instruments/temp/temp.parquet write (no append) completed
+2022-09-29 00:22:12,524 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(50) - instruments/temp/temp.parquet append completed
+2022-09-29 00:28:51,984 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(29) - instruments/temp/temp.parquet write completed
+2022-09-29 00:29:03,445 - [INFO] - src.extract_tools.extract_instruments -     (<stdin>).append(15) - instruments/temp/temp.parquet append completed
+2022-09-29 00:29:33,061 - [ERROR] - src.extract_tools.extract_instruments -     (<stdin>).load(11) - Non Local Storage Not Implemented
+2022-09-29 00:37:21,215 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(44) - instruments/temp/temp.parquet append completed
+2022-09-29 00:40:48,974 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:41:27,900 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:41:30,186 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:42:40,556 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(59) - instruments/temp/temp.parquet does not exist
+2022-09-29 00:42:53,660 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:43:04,651 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:43:27,592 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(59) - instruments/temp/temp.parquet does not exist
+2022-09-29 00:43:30,180 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:44:02,401 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp.parquet append completed
+2022-09-29 00:51:17,941 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(46) - instruments/temp/temp append completed
+2022-09-29 00:51:19,913 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(46) - instruments/temp/temp append completed
+2022-09-29 00:57:07,615 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(29) - instruments/temp/temp write completed
+2022-09-29 00:58:25,463 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(29) - instruments/temp/temp2 write completed
+2022-09-29 01:23:45,174 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(59) - instruments/instruments20220929 does not exist
+2022-09-29 01:25:03,879 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(59) - instruments/instruments20220929 does not exist
+2022-09-29 01:25:08,825 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(28) - instruments/instruments20220929 write completed
+2022-09-29 01:25:34,571 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(59) - instruments/temp/temp2 does not exist
+2022-09-29 01:25:43,975 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).load(59) - instruments/temp/temp does not exist
+2022-09-29 01:25:57,514 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(28) - instruments/temp/temp write completed
+2022-09-29 01:26:07,930 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:26:37,192 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:26:39,765 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:28:25,298 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:28:27,681 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:30:51,179 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:30:56,720 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:31:33,606 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).save(28) - instruments/temp/temp write completed
+2022-09-29 01:31:42,038 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 01:31:49,071 - [INFO] - src.utils.parquet_utils -     (parquet_utils.py).append(45) - instruments/temp/temp append completed
+2022-09-29 02:05:24,938 - [INFO] - src.utils.storage_utils -     (storage_utils.py).save(28) - equities/21STCENMGM write completed
+2022-09-29 02:05:52,632 - [INFO] - src.utils.storage_utils -     (storage_utils.py).save(28) - equities/21STCENMGM write completed
+2022-09-29 15:23:37,717 - [INFO] - src.utils.storage_utils -     (storage_utils.py).save(28) - equities/21STCENMGM write completed
+2022-09-29 23:14:45,677 - [INFO] - src.utils.storage_utils -     (storage_utils.py).save(28) - equities/21STCENMGM write completed
+2022-09-30 14:20:54,641 - [INFO] - src.utils.storage_utils -     (storage_utils.py).load(59) - equities/NSE:20MICRONS does not exist
+2022-10-02 14:10:45,201 - [INFO] - src.utils.storage_utils -     (storage_utils.py).load(59) - instruments/instruments20221002 does not exist
+2022-10-02 14:10:50,161 - [INFO] - src.utils.storage_utils -     (storage_utils.py).save(28) - instruments/instruments20221002 write completed
