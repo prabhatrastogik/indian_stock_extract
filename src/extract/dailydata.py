@@ -23,6 +23,10 @@ def get_25_years_data(instrument, type):
         if steps == 3:
             sleep(1)
 
+        # Options weekly does not have continuou data
+        if type == 'options_weekly' and steps != 0:
+            break
+
         if type == 'equities':
             all_ohlc += kite.historical_data(instrument_token=instrument['instrument_token'],
                                              from_date=start_date, to_date=end_date, interval='day')
