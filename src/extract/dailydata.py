@@ -26,6 +26,9 @@ def get_25_years_data(instrument, type):
         if type == 'equities':
             all_ohlc += kite.historical_data(instrument_token=instrument['instrument_token'],
                                              from_date=start_date, to_date=end_date, interval='day')
+        elif type == 'options_weekly':
+            all_ohlc += kite.historical_data(instrument_token=instrument['instrument_token'],
+                                             from_date=start_date, to_date=end_date, interval='day', oi=True)
         else:
             all_ohlc += kite.historical_data(instrument_token=instrument['instrument_token'],
                                              from_date=start_date, to_date=end_date, interval='day', continuous=True, oi=True)
@@ -229,7 +232,7 @@ def get_options_weekly_subset():
                 for row in options_strike:
                     extra = {
                         'expiry_weekday': weekday,
-                        'expiry_week': get_expiry_week(row['expiry']),
+                        'expiry_week_int': get_expiry_week(row['expiry']),
                     }
                     updated_row = {
                         **row,
