@@ -99,5 +99,8 @@ def save_nse_instruments():
             })
 
     write_instrument(equities, 'equities')
+    logger.info("Equities Instruments Data Write Completed")
     write_instrument(futures, 'futures')
+    logger.info("Futures Instruments Data Write Completed")
     write_instrument(options, 'options')
+    logger.info("Options Instruments Data Write Completed")

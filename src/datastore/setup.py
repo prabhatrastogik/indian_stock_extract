@@ -25,7 +25,9 @@ def set_database(set_type='all'):
     with db:
         try:
             db.drop_tables(tables)
+            logger.info(f"Dropped Tables {tables}")
         except Exception as e:
             logger.error(f"Dropping tables failed - {e}")
     with db:
         db.create_tables(tables, safe=False)
+        logger.info(f"Re-created Tables {tables}")
