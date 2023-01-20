@@ -251,6 +251,7 @@ def save_equities_dailydata():
     for instrument in equity_instruments:
         equities = get_25_years_data(instrument, type='equities')
         write_dailydata(equities, 'equities')
+        sleep(1)
 
 
 def save_futures_monthly_dailydata():
@@ -258,6 +259,7 @@ def save_futures_monthly_dailydata():
     for instrument in futures_instruments:
         futures_monthly = get_25_years_data(instrument, type='futures_monthly')
         write_dailydata(futures_monthly, 'futures_monthly')
+        sleep(1)
 
 
 def save_options_monthly_dailydata():
@@ -265,6 +267,7 @@ def save_options_monthly_dailydata():
     for instrument in options_instruments:
         options_monthly = get_25_years_data(instrument, type='options_monthly')
         write_dailydata(options_monthly, 'options_monthly')
+        sleep(1)
 
 
 def save_options_weekly_dailydata():
@@ -272,6 +275,7 @@ def save_options_weekly_dailydata():
     for instrument in options_instruments:
         options_weekly = get_25_years_data(instrument, type='options_weekly')
         write_dailydata(options_weekly, 'options_weekly')
+        sleep(1)
 
 
 def save_dailydata():
